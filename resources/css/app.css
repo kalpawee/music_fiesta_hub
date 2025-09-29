@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #cbd5e0;
+
+}
+
+input, select {
+    border-radius: 32px;
+    padding: 0.5rem 1rem;
+}
+
+button {
+    border-radius: 32px;
+    padding: 0.5rem 1rem;
+    background-color: #cbd5e0;
+
+}
+
+form {
+    border-radius: 32px;
+}
+
+
+.item-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.item-card img {
+    width: 100%;
+    height: auto;
+}
+
